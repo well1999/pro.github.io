@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>PROAUTO | Login</title>
+   
+    <!-- Stylesheets -->
+    <link href="css/style.css" rel="stylesheet"/>
+<link href="bootstrap-5.1.3-dist/css/bootstrap.css" rel="stylesheet"/>
+
+
+
+    <!-- Plugins -->
+    <link href="/LPL/Content/css/vendor/jquery-mmenu/jquery-mmenu.css" rel="stylesheet"/>
+<link href="/LPL/Scripts/vendor/jquery-labelauty/jquery-labelauty.css" rel="stylesheet"/>
+<link href="/LPL/Content/css/vendor/sweetalert.css" rel="stylesheet"/>
+<link href="/LPL/Content/css/vendor/alertify/alertify.css" rel="stylesheet"/>
+<link href="/LPL/Scripts/vendor/summernote/summernote.css" rel="stylesheet"/>
+<link href="/LPL/Content/css/vendor/footable/footable.core.css" rel="stylesheet"/>
+<link href="/LPL/Content/css/vendor/clockpicker/clockpicker.css" rel="stylesheet"/>
+<link href="/LPL/Scripts/vendor/asscrollable/asScrollable.min.css" rel="stylesheet"/>
+<link href="/LPL/Scripts/vendor/select2/select2.min.css" rel="stylesheet"/>
+
+    <link href="/LPL/Content/css/pages/login-v2.css" rel="stylesheet"/>
+
+
+    <!-- Fonts -->
+    <link href="/LPL/Content/css/fonts/web-icons/web-icons.css" rel="stylesheet"/>
+<link href="/LPL/Content/css/fonts/font-awesome/font-awesome.css" rel="stylesheet"/>
+
+
+    <!--[if lt IE 9]>
+    <script src="/LPL/bundles/ie8"></script>
+
+
+    <!--[if lt IE 10]>
+    <script src="/LPL/bundles/ie9"></script>
+
+
+    <!-- Scripts -->
+    <script src="/LPL/Scripts/vendor/breakpoints/breakpoints.js"></script>
+
+    <script>Breakpoints();</script>
+
+    <!-- Core  -->
+    <script src="js/jquery-ui-1.13.2.custom/jquery-ui.theme.css"></script>
+
+    <script src="/LPL/Scripts/vendor/asscrollbar/jquery-asScrollbar.js"></script>
+<script src="/LPL/Scripts/vendor/asscrollable/jquery-asScrollable.js"></script>
+<script src="/LPL/Scripts/vendor/jquery-labelauty/jquery-labelauty.js"></script>
+<script src="/LPL/Scripts/vendor/babel-external-helpers/babel-external-helpers.js"></script>
+<script src="/LPL/Scripts/vendor/tether/tether.js"></script>
+<script src="/LPL/Scripts/vendor/animsition/animsition.js"></script>
+<script src="/LPL/Scripts/vendor/mousewheel/jquery.mousewheel.js"></script>
+<script src="/LPL/Scripts/jquery.mask.min.js"></script>
+
+    <script src="/LPL/Scripts/vendor/slidepanel/jquery-slidePanel.js"></script>
+<script src="/LPL/Scripts/vendor/jquery-mmenu/jquery.mmenu.min.all.js"></script>
+<script src="/LPL/Scripts/vendor/screenfull/screenfull.js"></script>
+<script src="/LPL/Scripts/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+<script src="/LPL/Scripts/vendor/summernote/summernote.js"></script>
+<script src="/LPL/Scripts/vendor/bootstrap-sweetalert/sweetalert.js"></script>
+<script src="/LPL/Scripts/vendor/alertify/alertify.js"></script>
+<script src="/LPL/Scripts/vendor/footable/footable.core.js"></script>
+<script src="/LPL/Scripts/vendor/footable/footable.js"></script>
+<script src="/LPL/Scripts/vendor/select2/select2.min.js"></script>
+
+    <script src="/LPL/Scripts/vendor/bootstrap/bootstrap.js"></script>
+<script src="/LPL/Scripts/vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+<script src="/LPL/Content/css/vendor/bootstrap-datepicker/bootstrap-datepicker.pt-BR.min.js"></script>
+<script src="/LPL/Content/css/vendor/clockpicker/bootstrap-clockpicker.js"></script>
+<script src="/LPL/Scripts/vendor/respond/respond.min.js"></script>
+
+    <script src="/LPL/Scripts/State.js"></script>
+<script src="/LPL/Scripts/Component.js"></script>
+<script src="/LPL/Scripts/Plugin.js"></script>
+<script src="/LPL/Scripts/Base.js"></script>
+<script src="/LPL/Scripts/Config.js"></script>
+<script src="/LPL/Scripts/Section/Menubar.js"></script>
+<script src="/LPL/Scripts/Section/Sidebar.js"></script>
+<script src="/LPL/Scripts/Section/PageAside.js"></script>
+<script src="/LPL/Scripts/Section/GridMenu.js"></script>
+<script src="/LPL/Scripts/notify.min.js"></script>
+
+    <script src="/LPL/Scripts/config/colors.js"></script>
+
+    <script src="/LPL/Scripts/Plugin/jquery-placeholder.js"></script>
+<script src="/LPL/Scripts/Site.js"></script>
+<script src="/LPL/Scripts/Plugin/asscrollable.js"></script>
+<script src="/LPL/Scripts/Plugin/slidepanel.js"></script>
+<script src="/LPL/Scripts/Plugin/switchery.js"></script>
+<script src="/LPL/Scripts/bootbox-sweetalert.js"></script>
+<script src="/LPL/Scripts/Plugin/bootbox.js"></script>
+<script src="/LPL/Scripts/Plugin/bootbox.min.js"></script>
+<script src="/LPL/Scripts/Plugin/jquery.fancybox.min.js"></script>
+<script src="/LPL/Scripts/Funcoes.js"></script>
+<script src="/LPL/Scripts/Siga/SigaFuncoes.js"></script>
+<script src="/LPL/Scripts/Siga/Cotacao/EditarView2022.js"></script>
+<script src="/LPL/Scripts/Siga/Cotacao/CadastrarView2031.js"></script>
+<script src="/LPL/Scripts/Siga/Cotacao/ConsultarView2021.js"></script>
+<script src="/LPL/Scripts/Siga/CotacaoFrota/EditarView.js"></script>
+<script src="/LPL/Scripts/Siga/CotacaoFrota/CadastrarViewFrota.js"></script>
+<script src="/LPL/Scripts/Siga/CotacaoFrota/ConsultarView.js"></script>
+<script src="/LPL/Scripts/jsgrid.min.js"></script>
+
+    
+  
+
+</head>
+ 
+
+
+
+<body>
+    
+
+
+    <div class="container-banners"  >
+        <img src="imagem/unnamed.png"
+             alt="" />
+    </div>
+    <div class="formulario-acesso text-white">
+
+<form action="/LPL/AreaAssociado" id="frmLogin" method="post"><input name="__RequestVerificationToken" type="hidden" value="Y-VAcez6fVZrMnURkNpVJP8fQn3c3ED0NNc4pRzvWaQadlcOUXWlZ5h6kpQ6J5r4t0_kkLkQtg2ltFg6NctN2FoNHtQ3O4G0YzwZ6Km4wjo1" />            <img class="logo" src="/LPL/Content/imageskaizen/logobranco.png" />
+            <h1>Área do Associado</h1>
+<div class="validation-summary-errors text-danger"><ul><li>Usu&#225;rio e/ou senha incorretos.</li>
+</ul></div>            <label for="login">CPF / CNPJ</label>
+<label class="control-label sr-only" for="CpfCnpj">CPF / CNPJ</label><input class="form-control text-box single-line" data-val="true" data-val-required="O campo CPF / CNPJ é de preenchimento obrigatório" id="CpfCnpj" name="CpfCnpj" onkeypress="return isNumberKey(event)" placeholder="CPF / CNPJ" type="text" value="08517785690" /><span class="field-validation-valid text-danger" data-valmsg-for="CpfCnpj" data-valmsg-replace="true" id="msgerro2"></span>            <label for="placa_senha">Placa ou Senha</label>
+<label class="control-label sr-only" for="Senha">Senha</label><input class="form-control text-box single-line" data-val="true" data-val-required="O campo Senha é de preenchimento obrigatório" id="Senha" name="Senha" placeholder="Placa ou Senha" type="password" value="hnn6415" /><span class="field-validation-valid text-danger" data-valmsg-for="Senha" data-valmsg-replace="true" id="msgerro1"></span>            <a class="esqueci_senha" href="javascript: window.location.href ='/LPL/AreaAssociado/RecuperaSenha' + '?CpfCnpj=' + document.getElementById('CpfCnpj').value">Esqueci minha senha</a>
+            <div class="lembrar_senha">
+                <label class="checkbox">
+                    <input type="checkbox" name="lembrar_senha" /> Lembrar minha senha
+                </label>
+            </div>
+<button type='submit' class='botao_acao' >Entrar</button></form>        <div class="versao">
+            <small>Versão 2.41</small>
+            <small> @2022 PROAUTO. Todos seus direitos reservados.</small>
+            <div class="redes_sociais">
+                <a target="_blank" href="https://pt.linkedin.com/company/proautoprotecao">
+                    <i class="fab fa-linkedin" title="Linkedin PROAUTO"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/proautoprotecao/?hl=pt-br">
+                  <img src="icons/instagram.png" alt="icons" srcset="instagram">
+                </a>
+            </div>
+        </div>
+    </div>
+
+ 
+
+<!--javascript-->
+ 
+   <source src="js/script.js" type="">
+   <source src="js/user.js" type="">  
+
+
+</body>
+</html>
